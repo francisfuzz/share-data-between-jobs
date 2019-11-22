@@ -26,7 +26,7 @@ jobs:
         with:
           name: homework
       - name: List files 
-        run: ls -alrth
+        run: tree
       - name: Multiply and write to file 
         run: |
           value=`cat homework/math-homework.txt`
